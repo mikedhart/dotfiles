@@ -1,4 +1,4 @@
-
+execute pathogen#infect()
 " => Syntax highlighting
 syntax on
 
@@ -11,8 +11,7 @@ set tabstop=4
 set shiftwidth=4
 
 " => CtrlP
-set runtimepath^="C:/Program Files (x86)/Vim/vimfiles/autoload/ctrlp.vim"
-execute pathogen#infect()
+set runtimepath^="C:/Users/Mike/vimfiles/bundle/ctrlp.vim"
 
 " => Enable wildmenu
 set wildmenu
