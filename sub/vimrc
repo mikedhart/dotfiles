@@ -16,7 +16,7 @@ set tabstop=2
 set shiftwidth=2
 
 " => CtrlP
-set runtimepath^="C:/Users/Mike/vimfiles/bundle/ctrlp.vim"
+set runtimepath^=~.vim/bundle/ctrlp.vim
 nnoremap leader>. CtrlPTag
 
 " => Enable wildmenu
