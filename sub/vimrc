@@ -8,7 +8,7 @@ filetype plugin on
 set nowrap
 
 " => Colour scheme
-colorscheme molokai
+colorscheme vividchalk
 
 " => Tab settings
 set smartindent
@@ -16,7 +16,7 @@ set tabstop=2
 set shiftwidth=2
 
 " => CtrlP
-set runtimepath^=~.vim/bundle/ctrlp.vim
+set runtimepath^=C:\Users\Mike\vimfiles\bundle\ctrlp.vim
 nnoremap leader>. CtrlPTag
 
 " => Enable wildmenu
@@ -50,4 +50,4 @@ let g:use_emmet_complete_tag = 1
 
 autocmd BufNewFile,BufRead *.html.erb set filetype=html.eruby
 
-set tags=*/tags
+"set tags=*/tags
