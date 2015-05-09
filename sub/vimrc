@@ -18,10 +18,14 @@ set shiftwidth=2
 " => CtrlP
 set runtimepath^=C:\Users\Mike\vimfiles\bundle\ctrlp.vim
 nnoremap leader>. CtrlPTag
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " => Enable wildmenu
 set wildmenu
-set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/assets/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*
+set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*,tags
 
 " => Don't backup files, it's all done by git
 set nobackup
