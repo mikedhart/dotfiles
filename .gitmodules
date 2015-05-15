@@ -7,9 +7,6 @@
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = git@github.com:tpope/vim-bundler.git
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
-	url = git@github.com:jiangmiao/auto-pairs.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
