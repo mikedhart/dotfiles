@@ -10,20 +10,20 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
-[submodule "bundle\\vim-snippets"]
-	path = bundle\\vim-snippets
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
 	url = git@github.com:honza/vim-snippets.git
-[submodule "bundle\\vim-snipmate"]
-	path = bundle\\vim-snipmate
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
 	url = git@github.com:garbas/vim-snipmate.git
-[submodule "bundle\\vim-addon-mw-utils"]
-	path = bundle\\vim-addon-mw-utils
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
 	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle\\tlib_vim"]
-	path = bundle\\tlib_vim
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
 	url = git@github.com:tomtom/tlib_vim.git
-[submodule "bundle\\vim-less"]
-	path = bundle\\vim-less
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
 	url = git@github.com:groenewege/vim-less.git
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
