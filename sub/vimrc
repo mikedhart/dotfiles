@@ -1,6 +1,8 @@
 execute pathogen#infect()
 call pathogen#helptags()
 
+set relativenumber
+
 " => Syntax highlighting
 syntax enable
 filetype plugin on
@@ -20,7 +22,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " => Enable wildmenu
 set wildmenu
-set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*,tags
+set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*,tags,*/public/assets/*
 
 " => Don't backup files, it's all done by git
 set nobackup
