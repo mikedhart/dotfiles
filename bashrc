@@ -24,3 +24,5 @@ alias rdbm="RAILS_ENV=development rake db:migrate"
 alias ll="ls -la"
 alias sin="rsync -a --delete /vagrant ~"
 alias sout="rsync -a --delete ~/vagrant /"
+
+force_color_prompt=yes

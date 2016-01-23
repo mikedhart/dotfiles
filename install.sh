@@ -32,3 +32,6 @@ done
 
 # Update submodules for vim
 sh update_submodules.sh
+
+# Make bashrc commands instantly available
+source ~/.bashrc
