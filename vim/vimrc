@@ -11,6 +11,7 @@ filetype plugin on
 set nowrap
 
 " => Colour scheme
+let &t_Co = 256
 colorscheme inkpot
 
 " => Tab settings
