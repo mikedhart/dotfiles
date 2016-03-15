@@ -1,5 +1,4 @@
 # .bashrc
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -28,3 +27,4 @@ alias rc="rails console"
 alias r="rails"
 
 force_color_prompt=yes
+
