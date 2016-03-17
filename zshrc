@@ -1,3 +1,8 @@
+##
+# Credit: https://www.codementor.io/linux/tutorial/configure-linux-toolset-zsh-tmux-vim
+# #
+
+export TERM="xterm-256color"
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
  
@@ -15,7 +20,7 @@ export VISUAL=$EDITOR
 
 # ooh, what is this? Aliases?
 source ~/.aliases
-source .oh-my-zsh/lib/alias.zsh
+#source .oh-my-zsh/lib/alias.zsh
  
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
