@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc zshrc vimrc vim gitconfig oh-my-zsh"    # list of files/folders to symlink in homedir
+files="aliases bashrc zshrc zshenv vimrc vim gitconfig oh-my-zsh tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -31,7 +31,7 @@ for file in $files; do
 done
 
 # Update submodules for vim
-sh update_submodules.sh
+#sh update_submodules.sh
 
 # Make bashrc commands instantly available
 source ~/.bashrc
