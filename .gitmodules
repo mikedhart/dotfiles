@@ -52,3 +52,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = git@github.com:powerline/fonts.git
+[submodule "vim/colors/moriarty.vim"]
+	path = vim/colors/moriarty.vim
+	url = git@github.com:aliou/moriarty.vim.git
