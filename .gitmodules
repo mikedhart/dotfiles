@@ -55,3 +55,6 @@
 [submodule "vim/colors/moriarty.vim"]
 	path = vim/colors/moriarty.vim
 	url = git@github.com:aliou/moriarty.vim.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git

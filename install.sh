@@ -30,7 +30,15 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
+ln -s ~/.config/terminator/config terminator
+
+wget -O powerline-fonts.zip https://github.com/powerline/fonts/archive/master.zip
+unzip powerline-fonts.zip
+bash ./fonts-master/install.sh
+rm -rf powerline-fonts
+rm powerline-fonts.zip
+
 # Update submodules for vim
-#sh update_submodules.sh
+sh update_submodules.sh
 
 chsh -s /bin/zsh

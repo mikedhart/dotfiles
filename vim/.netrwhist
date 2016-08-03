@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/vagrant/Hanover/test'
-let g:netrw_dirhist_2='/home/vagrant/Hanover/app/assets'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/mnt/c/Users/miked/Projects/Cleversteam/ForestPageFront/public/assets/roy_castle/css'
+let g:netrw_dirhist_2='/mnt/c/Users/miked/Projects/Cleversteam/ForestPageFront/public/assets/roy_castle'
+let g:netrw_dirhist_3='/mnt/c/Users/miked/Projects/Cleversteam/ForestPageFront/public/assets/roy_castle/css'
+let g:netrw_dirhist_4='/mnt/c/Users/miked/Projects/Oncue/db/migrate'
+let g:netrw_dirhist_5='/home/mike/dotfiles/vim/colors'
+let g:netrw_dirhist_6='/home/mike/dotfiles/vim/colors/moriarty.vim'
+let g:netrw_dirhist_7='/home/mike/dotfiles/vim/colors/moriarty.vim/colors'
+let g:netrw_dirhist_8='/home/mike/dotfiles/vim/colors/moriarty.vim'
+let g:netrw_dirhist_9='/home/mike/dotfiles/vim/colors'

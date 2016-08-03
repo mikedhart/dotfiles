@@ -9,4 +9,4 @@ fi
 
 # User specific aliases and functions
 source ~/.aliases
-
+zsh

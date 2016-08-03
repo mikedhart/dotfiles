@@ -10,7 +10,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # make sure that if a program wants you to edit
 # text, that Vim is going to be there for you
@@ -51,3 +51,5 @@ setopt CORRECT
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+export TERM=xterm-256color
+[[ -s "$HOME/.rvm/scripts/rvm"  ]] && . "$HOME/.rvm/scripts/rvm" 
