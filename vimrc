@@ -1,1 +1,1 @@
-!<symlink>��v
+vim/vimrc
