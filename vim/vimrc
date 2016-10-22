@@ -11,7 +11,7 @@ set nowrap
 " => Colour scheme
 set t_Co=256
 set background=dark
-colorscheme inkpot
+colorscheme moriarty
 
 " => Tab settings
 set tabstop=2
