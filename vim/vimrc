@@ -10,8 +10,8 @@ set nowrap
 
 " => Colour scheme
 set t_Co=256
-set background=dark
-colorscheme moriarty
+"set background=dark
+colorscheme inkpot
 
 " => Tab settings
 set tabstop=2
@@ -24,7 +24,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " => Enable wildmenu
 set wildmenu
-set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*,tags,*/public/assets/*
+set wildignore+=*.tmpl.php,*.tpl.php,*/tmp/*,*/public/shared/*,*.orig,*/.git/*,*/.vagrant/*,*/vendor/assets/*,*/public/system/*,*/log/*,*/doc/*,tags
 
 " => Don't backup files, it's all done by git
 set nobackup

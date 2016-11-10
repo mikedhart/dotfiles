@@ -61,3 +61,9 @@
 [submodule "vim/bundle/grep.vim"]
 	path = vim/bundle/grep.vim
 	url = git@github.com:vim-scripts/grep.vim
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = git@github.com:tmux-plugins/tpm
+[submodule "tmux-themepack"]
+	path = tmux-themepack
+	url = git@github.com:jimeh/tmux-themepack.git
