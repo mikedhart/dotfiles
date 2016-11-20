@@ -64,3 +64,6 @@
 [submodule "tmux-themepack"]
 	path = tmux-themepack
 	url = git@github.com:jimeh/tmux-themepack.git
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = git@github.com:mattn/emmet-vim
